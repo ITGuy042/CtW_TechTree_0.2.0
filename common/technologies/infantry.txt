@@ -1498,7 +1498,7 @@ technologies = {
 
 	tech_magic_forces = {
 		enable_subunits = {
-			magic_wielder
+			magic_main
 		}
 		
 		#dependencies = {
@@ -1533,9 +1533,8 @@ technologies = {
 	}
 
 	tech_magic_forces_1 = {
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.05
-			acclimatization_cold_climate_gain_factor = 0.05
+		enable_subunits = {
+			magic_support
 		}
 		
 		#dependencies = {
@@ -1569,9 +1568,8 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			support_tech
+			magic_support
 		}
 		
 		ai_will_do = {
@@ -1590,15 +1588,15 @@ technologies = {
 			industrial_progress = 1
 		}
 
-		category_special_forces = {
-			max_organisation = 5
-			defense = 0.05
+		magic_main = {
+			max_organisation = 10
+			hard_attack = 0.1
 		}
-
-		special_forces_training_time_factor = 0.1
+		
+		special_forces_training_time_factor = 0.25
 		
 		path = {
-			leads_to_tech = extreme_environment_training
+			leads_to_tech = chosen_few
 			research_cost_coeff = 1
 		}
 
@@ -1629,9 +1627,11 @@ technologies = {
 			industrial_progress = 1
 		}
 
-		special_forces_cap = 0.05
-		special_forces_training_time_factor = -0.1
-		
+		special_forces_cap = 0.15
+		special_forces_training_time_factor = -0.10
+		magic_main = {
+			soft_attack = 0.05
+		}
 		path = {
 			leads_to_tech = survival_training
 			research_cost_coeff = 1
@@ -1656,7 +1656,11 @@ technologies = {
 	}
 
 
-	extreme_environment_training = {
+	chosen_few = {
+
+		magic_main = {
+			defense = 0.05
+		}
 
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.50
@@ -1667,7 +1671,7 @@ technologies = {
 		special_forces_training_time_factor = 0.1
 		
 		path = {
-			leads_to_tech = elite_forces
+			leads_to_tech = magiography
 			research_cost_coeff = 1
 		}
 
@@ -1693,14 +1697,19 @@ technologies = {
 	survival_training = {
 
 		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.20
-			acclimatization_cold_climate_gain_factor = 0.20
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
 		}
 		
-		special_forces_out_of_supply_factor = -0.1
+		magic_main = {
+			combat_width = -0.4
+		}
+		
+		special_forces_cap = 0.20
+		special_forces_training_time_factor = -0.15
 		
 		path = {
-			leads_to_tech = elite_forces
+			leads_to_tech = magiography
 			research_cost_coeff = 1
 		}
 
@@ -1733,7 +1742,7 @@ technologies = {
 			defense = 0.05
 		}
 
-		special_forces_training_time_factor = 0.1
+		special_forces_training_time_factor = 0.05
 		
 		path = {
 			leads_to_tech = general_magic_improvement_2
@@ -1762,14 +1771,14 @@ technologies = {
 
 
 		category_special_forces = {
-			max_organisation = 5
-			defense = 0.05
+			max_organisation = 10
+			attack_factor = 0.05
 		}
 
-		special_forces_training_time_factor = 0.1
+		special_forces_training_time_factor = 0.05
 		
 		path = {
-			leads_to_tech = elite_forces
+			leads_to_tech = magiography
 			research_cost_coeff = 1
 		}
 
@@ -1793,21 +1802,15 @@ technologies = {
 
 	#########
 
-	elite_forces = {
+	magiography = {
 		
 		dependencies = {
 			modern_progress = 1
 		}
-	
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.20
-			acclimatization_cold_climate_gain_factor = 0.20
-			max_organisation = 5
-			soft_attack = 0.05
-		}
 		
-		special_forces_no_supply_grace = 48
-
+		magic_support = {
+			initiative = 0.48
+		}
 
 		path = {
 			leads_to_tech = magic_unleashed
@@ -1832,13 +1835,14 @@ technologies = {
 		}
 	}
 	
-	magic_unleashed = {
+	magic_unleashed = {	
 		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.20
-			acclimatization_cold_climate_gain_factor = 0.20
-			max_organisation = 5
-			soft_attack = 0.05
+			max_organisation = 10
+			soft_attack = 0.1
+			defense = 0.1
 		}
+		
+		research_speed_factor = 0.05
 		
 		special_forces_no_supply_grace = 48
 

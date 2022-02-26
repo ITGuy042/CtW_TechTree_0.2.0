@@ -100,18 +100,30 @@
  tech_special_operation_5:0 "Advance Warfare"
  tech_special_operation_5_desc:0 "With modern technology coming to play, simply being the best of the best in physical combat isn't enough for today's war. Whether we have boots on the ground on Mewni, fighting magic to magic in the Boiling Isles, or hacking robots from Amphibia, our special forces must be adept in all kinds of ways of fighting."
  
+ tech_magic_forces:0 "Military Application of Magic"
+ tech_magic_forces_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contatact. (Counts as Special Forces)"
+
+ tech_magic_forces_1:0 "Magical Organization"
+ tech_magic_forces_1_desc:0 "Magic has the ability to streamline communications through messenger teleportation, and magic can also organize crowds of people by displaying grand flags with moving images. (Support Company)"
+
+ mewni_magic_forces:0 "Elite Magic Users"
+ mewni_magic_forces_desc:0 "Magic is a powerful tool which many cannot master to it's fullest extent. Often, it is those who have a long familial tradition and history of magic use who can unlock the true potential in magic."
+
+ bi_magic_forces:0 "Magic Schools"
+ bi_magic_forces_desc:0 "Magic is a powerful tool and it's basics can be taught to anyone. Often, one magical master cannot turn the tides of war, but one hundred thousand novices can."
+
+ chosen_few:0 "The Chosen Few"
+ chosen_few_desc:0 "Elite magic users hold themselves with honor and pride. This translates onto the battlefield, where their immense will and loyalty combined with their magical powers enables them to fight longer in even the harshest of conditions." 
+
+ survival_training:0 "Magical Mass Devotion"
+ survival_training_desc:0 "Even novice magic users feel a sense of duty as a protector, and their communities hold them in high regard. This translates to more people wishing to become magic users, and magic users tolerating less than ideal conditions."
+
+ magiography:0 "Magigraphic Inspiration"
+ magiography_desc:0 "Giant, "magigraphic" images raise troop morale. These images can range from national symbols blocking out the skies to mythical dragons lighting the ground aflame. The possibilities are endless."
+
+ magic_unleashed:0 "Magical Golden Age"
+ magic_unleashed_desc:0 "Many dimensions experience technological golden ages, but few dimensions experience a magical golden age. At this stage, spells are no longer discovered; they are invented."
  
-
-
-
-
-
-
-
-
-
-
-
  #################################################################################################################################
  ### Base Game Locs ###
  RESEARCH_BONUSES_TOOLTIP:0 "Limited technology bonuses we have:"
@@ -356,12 +368,6 @@
  advanced_special_forces_desc:0 "With extensive training, we can ensure that our special forces will be able perform above and beyond that of normal men."
  improved_special_forces:1 "Expanded Special Forces Program"
  improved_special_forces_desc:1 "Special forces are able to perform missions that ordinary soldiers can not. We need to expand the training programs to get more of our soldiers qualified."
- extreme_environment_training:0 "Extreme Environment Training"
- extreme_environment_training_desc:0 "We need to be able to fight in the harshest of environments. With the right training and equipment, our troops will be able to fight in the most extreme conditions."
- survival_training:0 "Survival Training"
- survival_training_desc:0 "Our special forces will often fight behind enemy lines and in short supply. We need to train them to endure harsh weather and fight with limited supplies."
- elite_forces:0 "Elite Forces"
- elite_forces_desc:0 "Only the best of the best will become special forces. The soldiers that make it through the training will be stronger, faster and fight harder than anyone else."
  jungle_warfare:0 "Jungle Warfare"
  jungle_warfare_desc:0 "Special training to make our soldiers effective in the jungle."
  HUN_light_infantry_tech:0 "Light Infantry Divisions Doctrine"

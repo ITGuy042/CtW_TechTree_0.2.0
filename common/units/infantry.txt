@@ -332,13 +332,11 @@ sub_units = {
 		}
 	}
 	
-	magic_wielder = {
+	magic_main = {
 		abbreviation = "MAG"
 		sprite = infantry
 		map_icon_category = infantry
 		special_forces = yes
-		mountaineers = yes
-		marines = yes
 
 		priority = 2
 		ai_priority = 2
