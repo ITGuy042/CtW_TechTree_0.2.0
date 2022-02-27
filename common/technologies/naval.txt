@@ -1,6 +1,10 @@
 technologies = {
 
 	early_destroyer = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = {
 			destroyer_1
@@ -138,6 +142,10 @@ technologies = {
 	
 	
 	early_light_cruiser = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = { 
 			light_cruiser_1
@@ -312,6 +320,10 @@ technologies = {
 	
 	
 	early_heavy_cruiser = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = { 
 			heavy_cruiser_1
@@ -447,6 +459,10 @@ technologies = {
 	
 	
 	early_battlecruiser = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = { 
 			battle_cruiser_1
@@ -508,6 +524,10 @@ technologies = {
 	}
 		
 	early_battleship = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = { 
 			battleship_1
@@ -689,6 +709,10 @@ technologies = {
 	}
 	
 	transport = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		transport_capacity = -0.5
 		naval_invasion_capacity = 10
@@ -865,6 +889,10 @@ technologies = {
 	}
 	
 	early_carrier = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = { 
 			carrier_1
@@ -1020,6 +1048,10 @@ technologies = {
 	}
 	
 	early_submarine = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_equipments = { 
 			submarine_1

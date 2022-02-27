@@ -126,7 +126,9 @@ equipments = {
 		
 		reliability = 0.8
 		build_cost_ic = 0.69
-
+		resources = {
+			steel = 2
+		}
 	}
 	
 	# 
@@ -151,7 +153,8 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 0.69
 		resources = {
-			steel = 3
+			steel = 2
+			rubber = 1
 		}
 	}
 	
@@ -179,7 +182,8 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 0.69
 		resources = {
-			steel = 4
+			steel = 2
+			rubber = 2
 		}
 	}
 	
@@ -203,7 +207,10 @@ equipments = {
 		
 		reliability = 0.8
 		build_cost_ic = 0.69
-		
+		resources = {
+			steel = 3
+			rubber = 2
+		}
 	}
 	
 	mod_infantry_equipment_3 = {
@@ -226,7 +233,10 @@ equipments = {
 		
 		reliability = 0.8
 		build_cost_ic = 0.69
-		
+		resources = {
+			steel = 3
+			rubber = 3
+		}
 	}
 	
 	# Advance Modern Weapons

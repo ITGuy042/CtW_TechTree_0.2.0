@@ -44,7 +44,7 @@ equipments = {
 		build_cost_ic 	= 6
 		resources = {
 			#oil 		= 1
-			steel 		= 2
+			steel 		= 1
 		}
 
 		fuel_consumption 	= 1.8
@@ -90,6 +90,10 @@ equipments = {
 		is_convertable = yes
 
 		#recon = 2
+		resources = {
+			#oil = 1
+			steel = 1
+		}
 	}
 
 	armored_car_equipment_2 = {
@@ -121,7 +125,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 2
-			tungsten = 1
+			rubber = 1
 		}
 	}
 
@@ -156,7 +160,7 @@ equipments = {
 		resources = {
 			#oil 		= 1
 			steel 		= 2
-			tungsten 	= 1
+			rubber 	= 1
 		}
 		fuel_consumption = 1.8
 	}

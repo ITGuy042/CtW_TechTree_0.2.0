@@ -18,6 +18,8 @@ sub_units = {
 		categories = {
 			category_support_battalions
 			category_army
+			category_magic_forces
+			category_special_forces 
 		}
 
 	

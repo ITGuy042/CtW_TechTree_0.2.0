@@ -2,6 +2,10 @@ technologies = {
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank = { #Leichttraktor
 
+		dependencies = {
+			industrial_progress = 1
+		}
+
 		enable_equipments = {
 			gw_tank_equipment
 
@@ -575,6 +579,10 @@ technologies = {
 	}
 	
 	advanced_light_tank = { #Leopard
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		enable_equipments = {
 			light_tank_equipment_3 
@@ -695,6 +703,8 @@ technologies = {
 	}
 	
 	basic_medium_tank = { #Panzer III
+	
+
 
 		enable_equipments = {
 			medium_tank_equipment_1 
@@ -768,6 +778,8 @@ technologies = {
 	}
 	
 	basic_medium_td = {
+	
+		
 
 		enable_equipments = {
 			medium_tank_destroyer_equipment_1
@@ -916,6 +928,10 @@ technologies = {
 	}
 	
 	improved_medium_tank = { #Panzer IV
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		enable_equipments = {
 			medium_tank_equipment_2 
@@ -1654,6 +1670,10 @@ technologies = {
 	}
 	
 	improved_heavy_tank = { #Tiger
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		enable_equipments = {
 			heavy_tank_equipment_2 
