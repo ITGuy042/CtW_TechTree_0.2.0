@@ -1497,6 +1497,7 @@ technologies = {
 	###########################################
 
 	tech_magic_forces = {
+
 		enable_subunits = {
 			magic_main
 		}
