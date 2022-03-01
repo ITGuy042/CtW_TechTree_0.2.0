@@ -10,6 +10,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
 	}
 
+	#######################################################################################
 	### generic equipment archetypes ###
 	
 	SpriteType = {
@@ -17,9 +18,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/archetypes/archetype_infantry_equipment.dds"
 	}
 	
+	### generic equipment tech ####
+	
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/ren_infantry_weapon_1.dds"
 	}
 	
 	SpriteType = {
@@ -29,7 +32,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/ren_infantry_weapon_2.dds"
 	}	
 
 	SpriteType = {
@@ -39,8 +42,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons4_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/ren_infantry_weapon_3.dds"
 	}
+	
+	###
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons5_medium"

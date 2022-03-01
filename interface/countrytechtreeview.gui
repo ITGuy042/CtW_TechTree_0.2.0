@@ -32,6 +32,8 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
+		
+		#########################################################################################
 
 		containerWindowType = {
 			name = "infantry_folder"
@@ -79,11 +81,37 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 950 }
+					position = { x = 1540 y = 960 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_SPECIAL"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "infantry_subtitle_magic"
+					position = { x = 1010 y = 975 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "Magical Special Forces"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "infantry_subtitle_spec_ops"
+					position = { x = 1965 y = 975 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "Technological Special Forces"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -146,7 +174,7 @@ guiTypes = {
 
 			}
 			
-			############## ERA PROGESSION TECH##############
+			############## ERA PROGESSION TECH ##############
 			gridboxtype = {
 				name = "industrial_progress_tree"
 				position = { x = 1000 y = 70 }
@@ -209,9 +237,9 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "tech_special_operation_tree"
-				position = { x = 140 y = 850 }
+				position = { x = 2140 y = 1035 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT" 
+				format = "UP" 
 			}
 
 			#gridboxtype = {
@@ -237,9 +265,9 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_magic_forces_tree"
-				position = { x = 140 y = 1035 }
+				position = { x = 1153 y = 1035 }
 				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
+				format = "UP"
 			}
 			
 		}
@@ -2173,6 +2201,15 @@ guiTypes = {
 			}
 			
 		}
+		
+		######################################################################################################################
+		######################################################################################################################
+		######################################################################################################################
+		
+		
+		
+		
+		#####################################################################################################################
 
 		containerWindowType = {
 			name = "folder_tabs"
@@ -2255,6 +2292,12 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_engineering
 			}
+
+			######################################################################
+
+		
+
+			######################################################################
 
 			iconType = {
 				name = "highlight_engineering_folder"

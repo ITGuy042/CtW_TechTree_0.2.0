@@ -82,23 +82,25 @@
  
  #########
 
- tech_special_operation:0 "Special Operation Integration"
+ #tech_special_operation:0 "Special Operation Integration"
  tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. By attaching a small contingent of them with our main forces, our frontline commanders would have both greater firepower and expertise at their disposal."
  
- tech_special_operation_1:0 " Special Operation Advisors"
+ #tech_special_operation_1:0 " Special Operation Advisors"
  tech_special_operation_1_desc:0 "The officers of our special op forces are often both well trained and skilled in both tactical and strategic deployment. Having them advice field commanders can improve our main force's capabilities."
  
- tech_special_operation_2:0 "Shock Trooper"
+ #tech_special_operation_2:0 "Shock Trooper"
  tech_special_operation_2_desc:0 "Though scarce and difficult to replace, having special force troops join the fray directly, while allowing the same freedom of discretion in tactics mean they could fight in ways our normal soldiers can't and tip the balance of a battle in our favor."
  
- tech_special_operation_3:0 "Axillary Elite Guard"
+ #tech_special_operation_3:0 "Axillary Elite Guard"
  tech_special_operation_3_desc:0 "By having the best of our regular infantry undergo impromptu training by our spec ops, a small amount of our regular infantry will have better fighting abilities than they would otherwise."
  
- tech_special_operation_4:0 "Ad-Hoc Strike Force"
+ #tech_special_operation_4:0 "Ad-Hoc Strike Force"
  tech_special_operation_4_desc:0 "Knowledge is key in warfare, whether that be on the ground or when managing entire campaigns. Supported by highly capable regular infantry, our spec ops can gather information and use it to deliver debilitating blows on enemies, whether that be softening their defenses or weakening their offenses."
  
- tech_special_operation_5:0 "Advance Warfare"
+ #tech_special_operation_5:0 "Advance Warfare"
  tech_special_operation_5_desc:0 "With modern technology coming to play, simply being the best of the best in physical combat isn't enough for today's war. Whether we have boots on the ground on Mewni, fighting magic to magic in the Boiling Isles, or hacking robots from Amphibia, our special forces must be adept in all kinds of ways of fighting."
+ 
+ ##########################################################
  
  tech_magic_forces:0 "Military Application of Magic"
  tech_magic_forces_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contatact. (Counts as Special Forces)"
