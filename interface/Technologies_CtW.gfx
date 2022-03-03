@@ -94,7 +94,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons14_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+		texturefile = "gfx/interface/technologies/mod_infantry_weapon_3.dds"
 	}
 	
 	########################

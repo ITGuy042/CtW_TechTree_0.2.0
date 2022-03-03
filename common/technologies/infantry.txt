@@ -2017,11 +2017,16 @@ technologies = {
 	
 	####################################################################################################
 	####################################################################################################
+	####################################################################################################
 	
 	tech_special_operation = {
+	
+		dependencies = {
+			industrial_progress = 1
+		}
 
 		enable_subunits = {
-			special_operation_company
+			special_operation_main
 		}
 		
 		on_research_complete_limit = {
@@ -2064,9 +2069,9 @@ technologies = {
 	
 	tech_special_operation_1 = {
 
-		marine = {
-			max_organisation = 5
-			soft_attack = 0.05
+		
+		enable_subunits = {
+			special_operation_company
 		}
 		
 		path = {
@@ -2162,6 +2167,10 @@ technologies = {
 	}
 	
 	tech_special_operation_3 = {
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		path = {
 			leads_to_tech = tech_special_operation_14
@@ -2245,6 +2254,10 @@ technologies = {
 	}
 	
 	tech_special_operation_5 = {
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		path = {
 			leads_to_tech = tech_special_operation_14
@@ -2323,6 +2336,10 @@ technologies = {
 	}
 	
 	tech_special_operation_7 = {
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		path = {
 			leads_to_tech = tech_special_operation_14
@@ -2401,6 +2418,10 @@ technologies = {
 	}
 	
 	tech_special_operation_9 = {
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		path = {
 			leads_to_tech = tech_special_operation_14
@@ -2441,6 +2462,10 @@ technologies = {
 
 	
 	tech_special_operation_10 = {
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		xor={
 			tech_special_operation_12
@@ -2483,6 +2508,10 @@ technologies = {
 	}
 	
 	tech_special_operation_11 = {
+	
+		dependencies = {
+			modern_progress = 1
+		}
 
 		path = {
 			leads_to_tech = tech_special_operation_14
@@ -2525,6 +2554,11 @@ technologies = {
 
 		xor={
 			tech_special_operation_10
+		}
+		
+		### FOCUS ONLY
+		allow = {
+			always = no
 		}
 
 		marine = {
@@ -2641,7 +2675,14 @@ technologies = {
 	######################################################
 
 	tech_magic_forces = {
-
+	
+		### UNLOCK ONLY BY FOCUS
+		allow = {
+			always = no
+		}
+		### UNLOCK ONLY BY FOCUS
+		
+		
 		enable_subunits = {
 			magic_main
 		}
@@ -2744,12 +2785,16 @@ technologies = {
 			leads_to_tech = mewni_magic_forces_1
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = mewni_magic_forces_2
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2
 		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 		
 		categories = {
@@ -2764,6 +2809,9 @@ technologies = {
 	}
 
 	mewni_magic_forces_1 = {
+		xor={
+			mewni_magic_forces_2
+		}
 
 		magic_main = {
 			defense = 0.05
@@ -2778,7 +2826,7 @@ technologies = {
 		special_forces_training_time_factor = 0.1
 		
 		path = {
-			leads_to_tech = mewni_magic_forces_2
+			leads_to_tech = mewni_magic_forces_3
 			research_cost_coeff = 1
 		}
 
@@ -2801,6 +2849,46 @@ technologies = {
 	}
 	
 	mewni_magic_forces_2 = {
+		xor={
+			mewni_magic_forces_1
+		}
+
+		magic_main = {
+			defense = 0.05
+		}
+
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.50
+			acclimatization_cold_climate_gain_factor = 0.50
+		}
+		
+		special_forces_no_supply_grace = 48
+		special_forces_training_time_factor = 0.1
+		
+		path = {
+			leads_to_tech = mewni_magic_forces_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 6 }
+		}
+		
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+	
+	mewni_magic_forces_3 = {
 
 		magic_main = {
 			defense = 0.05
@@ -2823,7 +2911,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = 8 }
+			position = { x = 4 y = 8 }
 		}
 		
 		categories = {
@@ -2857,12 +2945,17 @@ technologies = {
 			leads_to_tech = bi_magic_forces_1
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = bi_magic_forces_2
+			research_cost_coeff = 1
+		}
+
 
 		research_cost = 2
 		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = -3 y = 4 }
+			position = { x = -4 y = 4 }
 		}
 		
 		categories = {
@@ -2877,6 +2970,10 @@ technologies = {
 	}
 
 	bi_magic_forces_1 = {
+	
+		xor={
+			bi_magic_forces_2
+		}
 
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.05
@@ -2891,7 +2988,48 @@ technologies = {
 		special_forces_training_time_factor = -0.15
 		
 		path = {
-			leads_to_tech = bi_magic_forces_2
+			leads_to_tech = bi_magic_forces_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = -5 y = 6 }
+		}
+		
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+	
+	bi_magic_forces_2 = {
+	
+		xor={
+			bi_magic_forces_1
+		}
+
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+		
+		magic_main = {
+			combat_width = -0.4
+		}
+		
+		special_forces_cap = 0.20
+		special_forces_training_time_factor = -0.15
+		
+		path = {
+			leads_to_tech = bi_magic_forces_3
 			research_cost_coeff = 1
 		}
 
@@ -2913,7 +3051,7 @@ technologies = {
 		}
 	}
 	
-	bi_magic_forces_2 = {
+	bi_magic_forces_3 = {
 
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.05
@@ -2936,7 +3074,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = -3 y = 8 }
+			position = { x = -4 y = 8 }
 		}
 		
 		categories = {

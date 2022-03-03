@@ -2,6 +2,14 @@
 
  #########
  
+ industrial_progress:0 "Industrial Advancement"
+ industrial_progress_desc:0 ""
+ 
+ modern_progress:0 "Modern Advancement"
+ modern_progress_desc:0 ""
+ 
+ #########
+ 
  infantry_weapons1:0 "Improved Infantry Equipment I"
  infantry_weapons1_desc:0 ""
  
@@ -29,25 +37,25 @@
  ren_infantry_equipment_0_desc:0 "The primary weapons of basic soldiers, often associated with the Terran Pre-Industrial Age. "
  
  ren_infantry_equipment_1:0 "Arquebus"
- ren_infantry_equipment_1_desc:0 "An early firearm technology using a stable explosive powder to propel a projectile at deadly speeds."
+ ren_infantry_equipment_1_desc:0 "An early firearm technology using a stable explosive powder to propel a projectile at deadly speeds. Often use in conjuction with melee weaponary."
  
  ren_infantry_equipment_2:0 "Musket"
- ren_infantry_equipment_2_desc:0 "A refined muzzle loaded projectile weapon allowing wide scale range attacks of foot soldiers."
+ ren_infantry_equipment_2_desc:0 "A refined early firearm, either muzzled loaded then breached loaded, which allows foot soldiers to engage in range attack. Can be produced in numbers to be the main weaponary of most soldiers."
  
- ind_infantry_equipment_1:0 "Early Rifles"
- ind_infantry_equipment_1_desc:0 "Early projectile weapons with a spiral barrel for increased projectile accuracy and a breech opener for quick loading of ammunition."
+ ind_infantry_equipment_1:0 "Repeating Weapons"
+ ind_infantry_equipment_1_desc:0 "Early Industrial Era weapons with a spiral barrel for increased projectile accuracy and capable of storing several metallic cartridges for quick and repeated fire of projectiles at a target before reloading."
  
- ind_infantry_equipment_2:0 "Repeating Rifles"
- ind_infantry_equipment_2_desc:0 "Classic Industrial Era weapons capable of storing several metallic cartridges for quick and repeated fire of projectiles at a target before reloading. "
+ ind_infantry_equipment_2:0 "Automatic Weapons"
+ ind_infantry_equipment_2_desc:0 "Late Industrial Era weapons capable of placing continuous and automatic fire, increacing overall firepower of the regular soldier."
 
  mod_infantry_equipment_1:0 "Assault Rifles"
- mod_infantry_equipment_1_desc:0 "Early Modern Rifles design to incorporate the automatic fire of sub-machine guns and range and lethality of ranged rifles through the use of intermediate rounds for the perfect balance in infantry weaponry."
+ mod_infantry_equipment_1_desc:0 "Early Modern Rifles design to incorporate the automatic fire of sub-machine guns, and the range and lethality of ranged rifles through the use of intermediate rounds for the perfect balance in infantry weaponry."
  
- mod_infantry_equipment_2:0 "Modern Rifles"
+ mod_infantry_equipment_2:0 "Modern Weapons"
  mod_infantry_equipment_2_desc:0 "Modern Rifles incorporate the latest advancement in assault rifles with new designs in material, mechanics, and functionality."
  
  mod_infantry_equipment_3:0 "Advanced Rifles"
- mod_infantry_equipment_3_desc:0 "Advanced Rifles utilized the cutting-edge technology to give greater across-the-board firepower and capability to soldiers across the multiverse."
+ mod_infantry_equipment_3_desc:0 "Advanced Rifles utilized the latest cutting-edge technology to give greater across-the-board firepower and capability to soldiers across the multiverse."
  
  #########
  
@@ -82,23 +90,67 @@
  
  #########
 
- #tech_special_operation:0 "Special Operation Integration"
- tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. By attaching a small contingent of them with our main forces, our frontline commanders would have both greater firepower and expertise at their disposal."
+ tech_special_operation:0 "Special Operation Forces"
+ tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. "
  
- #tech_special_operation_1:0 " Special Operation Advisors"
- tech_special_operation_1_desc:0 "The officers of our special op forces are often both well trained and skilled in both tactical and strategic deployment. Having them advice field commanders can improve our main force's capabilities."
+ tech_special_operation_1:0 "Special Operation Integration"
+ tech_special_operation_1_desc:0 "The officers of our special op forces are often both well trained and skilled in both tactical and strategic deployment. By attaching a small contingent of them with our main forces, our frontline commanders would have both greater firepower and expertise at their disposal. They may also advice regular field commanders to improve our main force's capabilities."
  
- #tech_special_operation_2:0 "Shock Trooper"
- tech_special_operation_2_desc:0 "Though scarce and difficult to replace, having special force troops join the fray directly, while allowing the same freedom of discretion in tactics mean they could fight in ways our normal soldiers can't and tip the balance of a battle in our favor."
+ #
  
- #tech_special_operation_3:0 "Axillary Elite Guard"
- tech_special_operation_3_desc:0 "By having the best of our regular infantry undergo impromptu training by our spec ops, a small amount of our regular infantry will have better fighting abilities than they would otherwise."
+ tech_special_operation_2:0 "Naval And Air Operations"
+ tech_special_operation_2_desc:0 ""
  
- #tech_special_operation_4:0 "Ad-Hoc Strike Force"
- tech_special_operation_4_desc:0 "Knowledge is key in warfare, whether that be on the ground or when managing entire campaigns. Supported by highly capable regular infantry, our spec ops can gather information and use it to deliver debilitating blows on enemies, whether that be softening their defenses or weakening their offenses."
+ tech_special_operation_3:0 "Cross Dimensional Insertion"
+ tech_special_operation_3_desc:0 ""
  
- #tech_special_operation_5:0 "Advance Warfare"
- tech_special_operation_5_desc:0 "With modern technology coming to play, simply being the best of the best in physical combat isn't enough for today's war. Whether we have boots on the ground on Mewni, fighting magic to magic in the Boiling Isles, or hacking robots from Amphibia, our special forces must be adept in all kinds of ways of fighting."
+ #
+ 
+ tech_special_operation_4:0 "Special Advisors"
+ tech_special_operation_4_desc:0 ""
+ 
+ tech_special_operation_5:0 "Enhanced Regular Trooper Training"
+ tech_special_operation_5_desc:0 ""
+ 
+ #
+ 
+ tech_special_operation_6:0 "Rural Combat Training"
+ tech_special_operation_6_desc:0 ""
+ 
+ tech_special_operation_7:0 "Rural Specialization"
+ tech_special_operation_7_desc:0 ""
+ 
+ #
+ 
+ tech_special_operation_8:0 "Urban Combat Training"
+ tech_special_operation_8_desc:0 ""
+ 
+ tech_special_operation_9:0 "Fast Strike Force"
+ tech_special_operation_9_desc:0 ""
+ 
+ #
+ 
+ tech_special_operation_10:0 "Modernize Special Forces"
+ tech_special_operation_10_desc:0 ""
+ 
+ tech_special_operation_11:0 "Superior Training And Equipment"
+ tech_special_operation_11_desc:0 ""
+ 
+ #
+ 
+ tech_special_operation_12:0 "Enhanced Combat Stimulas"
+ tech_special_operation_12_desc:0 ""
+ 
+ tech_special_operation_13:0 "Mind Altering Stimulas"
+ tech_special_operation_13_desc:0 ""
+ 
+ #
+ 
+ tech_special_operation_14:0 "Advance Special Forces"
+ tech_special_operation_14_desc:0 ""
+ 
+ tech_special_operation_15:0 "The Finest In The Multiverse"
+ tech_special_operation_15_desc:0 ""
  
  ##########################################################
  
@@ -108,17 +160,53 @@
  tech_magic_forces_1:0 "Magical Organization"
  tech_magic_forces_1_desc:0 "Magic has the ability to streamline communications through messenger teleportation, and magic can also organize crowds of people by displaying grand flags with moving images. (Support Company)"
 
+ ###
+
  mewni_magic_forces:0 "Elite Magic Users"
  mewni_magic_forces_desc:0 "Magic is a powerful tool which many cannot master to it's fullest extent. Often, it is those who have a long familial tradition and history of magic use who can unlock the true potential in magic."
 
+ mewni_magic_forces_1:0 "The Power Within"
+ mewni_magic_forces_desc_1:0 ""
+ 
+ mewni_magic_forces_2:0 "Magical Power Channelers"
+ mewni_magic_forces_desc_2:0 ""
+ 
+ mewni_magic_forces_3:0 "The Magical Few"
+ mewni_magic_forces_desc_3:0 ""
+
+ ###
+
  bi_magic_forces:0 "Magic Schools"
  bi_magic_forces_desc:0 "Magic is a powerful tool and it's basics can be taught to anyone. Often, one magical master cannot turn the tides of war, but one hundred thousand novices can."
+ 
+ bi_magic_forces_1:0 "Universal Magic Standards"
+ bi_magic_forces_desc_1:0 ""
+ 
+ bi_magic_forces_2:0 "Division of Magic Labor"
+ bi_magic_forces_desc_2:0 ""
+ 
+ bi_magic_forces_3:0 "Law and Paranormal Order"
+ bi_magic_forces_desc_3:0 ""
+ 
+ ###
+ 
+ general_magic_improvement_1:0 "1"
+ general_magic_improvement_desc_1:0 ""
+ 
+ general_magic_improvement_2:0 "2"
+ general_magic_improvement_desc_2:0 ""
+ 
+ general_magic_improvement_3:0 "3"
+ general_magic_improvement_desc_3:0 ""
+ 
+ ###
 
- chosen_few:0 "The Chosen Few"
- chosen_few_desc:0 "Elite magic users hold themselves with honor and pride. This translates onto the battlefield, where their immense will and loyalty combined with their magical powers enables them to fight longer in even the harshest of conditions." 
+ #chosen_few:0 "The Chosen Few"
+ #chosen_few_desc:0 "Elite magic users hold themselves with honor and pride. This translates onto the battlefield, where their immense will and loyalty combined with their magical powers enables them to fight longer in even the harshest of conditions." 
 
- survival_training:0 "Magical Mass Devotion"
- survival_training_desc:0 "Even novice magic users feel a sense of duty as a protector, and their communities hold them in high regard. This translates to more people wishing to become magic users, and magic users tolerating less than ideal conditions."
+ #survival_training:0 "Magical Mass Devotion"
+ #survival_training_desc:0 "Even novice magic users feel a sense of duty as a protector, and their communities hold them in high regard. This translates to more people wishing to become magic users, and magic users tolerating less than ideal conditions."
+
 
  magiography:0 "Magigraphic Inspiration"
  magiography_desc:0 "Giant, "magigraphic" images raise troop morale. These images can range from national symbols blocking out the skies to mythical dragons lighting the ground aflame. The possibilities are endless."
